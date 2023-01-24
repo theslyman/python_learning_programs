@@ -1,0 +1,19 @@
+yourName = input ("What is your name?:")
+cpr = input("What is your CPR number?:")
+jobTitle = input("What is Your Job title?:")
+employer = input ("who is Your Employer?:")
+reason = input("what is the reason for your resegnation?:")
+long = input ("How long have you been working with this company?:")
+lastDay = input ("what is your last Day of working")
+
+print ("Dear", "\033[32m",employer,"\033[0m")
+print ("Please accept this letter as formal notification of my intention to resign from my position as","\033[32m",jobTitle,"\033[0m","with","\033[32m",employer,"\033[0m",".  In accordance with my notice period, my final day will be","\033[31m",lastDay,"\033[0m")
+
+print ("I would like to thank you for the opportunity to have worked in the position for the past", long,".  I have learned a great deal during my time here and have enjoyed collaborating with my colleagues. I will take a lot of what I have learned with me in my career and will look back at my time here as a valuable period of my professional life.")
+
+print ("During the next one month I will do what I can to make the transition as smooth as possible, and will support in whatever way I can to hand over my duties to colleagues or to my replacement. Please let me know if there is anything further I can do to assist in this process.")
+
+print ("Sincerely,")
+
+print ("\033[32m",yourName,"\033[0m")
+print ("CPR Number","\033[32m",cpr,"\033[0m")
