@@ -1,0 +1,22 @@
+print ("\033[31m Generation Identifier \033[0m")
+print ("\033[31m ******************************* \033[0m")
+print ("/n")
+year = int(input ("\033[32m Which Year you where born?: \033[0m"))
+if year >= 1883 and year <= 1900:
+  print ("You are from the Lost Generation!!")
+elif year >= 1901 and year <= 1927:
+  print ("WoW you are from te Gratest Generation!!")
+elif year >= 1928 and year <= 1945:
+  print ("You are from the Silent Generation!!")
+elif year >= 1946 and year <= 1964:
+  print ("You are from the Baby Boomers!!")
+elif year >= 1965 and year <= 1980:
+  print ("You are from Generation X!!")
+elif year >= 1981 and year <= 1996:
+  print ("You are Millennial!!")
+elif year >= 1997 and year <= 2012:
+  print ("You are from Generation Z !!")
+elif year > 2012:
+  print ("You are from Generation Alfa !!")
+else:
+  print("You are Not Form any catigorized Generation!")
