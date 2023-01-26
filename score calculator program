@@ -1,0 +1,27 @@
+print ("Exam Grade Calculator")
+print()
+exam = input ("What is the neme of the eaxam?")
+hscore = int (input ("What is the higest score that can be achived?"))
+
+score = int (input ("What is Your score?"))
+pscore = (score * 100) / hscore
+print ("name of the exam :", exam)
+print()
+print ("Highest possible Score is", hscore)
+print()
+print("Your score is:", pscore,"%")
+if pscore >= 90 and pscore <= 100:
+  print("you got",pscore,"% which is A+ ")
+elif pscore >= 80 and pscore < 90:
+  print("you got",pscore,"% which is A- ")
+elif pscore >= 70 and pscore < 80:
+  print("you got",pscore,"% which is B ")  
+elif pscore >= 60 and pscore < 70:
+  print("you got",pscore,"% which is C ")
+elif pscore >= 50 and pscore < 60:
+  print("you got",pscore,"% which is D ")
+elif pscore >= 0 and pscore < 50:
+  print("you got",pscore,"% which is F ")  
+else:
+  print("this is not possible")
+  
